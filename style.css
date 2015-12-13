@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 1;
+	font-size: 100%;
+	font: inherit;
+}
+
+/************************************************************/
+body {background-color: green;}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 2px solid black;
+}
+
+th {background-color: #FFCC00; height: 30px; width: 70px;}
+
+#angle-left{
+  border-top-left-radius: 20px;
+}
+
+#angle-right{
+  border-bottom-right-radius: 20px;
+}
+
+.longer-right {text-align: right; width: 130px; padding-right: 5px; border-top-left-radius: 20px;}
+
+.longer-left {text-align: left; width: 130px; padding-left: 5px; }
+
+.double-longer { width: 310px; border-top-right-radius: 20px; }
+
+.headers {font-family: Arial Black,Arial Bold,Gadget,sans-serif; }
+
+td {height: 36px;}
+
+.scores { text-align: center; }
+
+.group { text-align: center; }
+
+.color-one {background-color: #D0D0D0;}
+
+.color-white {background-color: white; }
+
+.move-right {text-align: right; padding-right: 5px;}
+
+.move-left {padding-left: 5px;}
+
+td img{ width: 18px; height: 14px; }
+
+td select option { height:25px; width: 2px;}
+
+.red-colored {color: red;}
+
+.green-colored {color: green;}
+
+.bet {width:35px;
+    height:35px;
+    color: white;
+	text-align: center;
+	font-size: 9;
+    border-radius: 100%;
+	background-color: red;
+}
+
+.bet-g{
+	width:35px;
+    height:35px;
+    color: white;
+	text-align: center;
+	font-size: 9;
+    border-radius: 100%;
+	background-color: green;
+}
