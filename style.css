@@ -36,7 +36,7 @@ table, td, th {
 th {background-color: #FFCC00; height: 30px; width: 70px;}
 
 #angle-left{
-  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 #angle-right{
